@@ -6,81 +6,6 @@
 <!-- javascript -->
 <script src="source/v.js" type="text/javascript" async="async"></script>
 
-<style>
-    body {
-        margin: 0;
-        /*    background: #262;*/
-        background: url('/source/dynamic.png')#000 no-repeat;
-        background-size: cover;
-        /*视频开始前显示*/
-    }
-    
-    div#tre > div {
-        -webkit-perspective: 800;
-        -webkit-transform-style: preserve-3d;
-        -moz-perspective: 800;
-        -moz-transform-style: preserve-3d;
-        -ms-perspective: 800;
-        -ms-transform-style: preserve-3d;
-        -o-perspective: 800;
-        -o-transform-style: preserve-3d;
-    }
-    
-    div#eric {
-        text-align: center;
-    }
-    
-    div#tre > div > div:last-child {
-        position: relative;
-        top: -36px;
-    }
-    
-    div#tre > div > div {
-        -webkit-transition: all 500ms ease-in-out;
-        -webkit-transform-origin: 50% 100%;
-        -webkit-transform: rotateX(-90deg);
-        -moz-transition: all 500ms ease-in-out;
-        -moz-transform-origin: 50% 100%;
-        -moz-transform: rotateX(-90deg);
-        -o-transition: all 500ms ease-in-out;
-        -o-transform-origin: 50% 100%;
-        -o-transform: rotateX(-90deg);
-        -ms-transition: all 500ms ease-in-out;
-        -ms-transform-origin: 50% 100%;
-        -ms-transform: rotateX(-90deg);
-    }
-    
-    div#tre > div > div.on {
-        opacity: 1;
-        -webkit-transform: rotateX(0);
-        -moz-transform: rotateX(0);
-        -o-transform: rotateX(0);
-        -ms-transform: rotateX(0);
-    }
-    
-    .trackNotSupported {
-        display: none;
-    }
-    
-    .trackNotSupported.show {
-        display: block;
-    }
-    
-    .warningMessage {
-        color: red;
-    }
-    
-    .talkinghead-dutton:before {
-        background-image: url(/static/images/profiles/dutton.png);
-        background-size: 60px 60px;
-        background-position: 0px 0px!important;
-    }
-</style>
-
-
-
-
-
 
 
 <div id="polina">
@@ -88,14 +13,14 @@
     <p>Power by LinXin 2015</p>
     <a href="pp.html">></a>
     <div id="tre">
-        <div>
-            <p id=ap></p>
+        <div id="ap">
+            <p></p>
         </div>
-        <div>
-            <p id=bp></p>
+        <div id="bp">
+            <p></p>
         </div>
     </div>
-    <button>Pause</button>
+    <button>Play</button>
 </div>
 
 

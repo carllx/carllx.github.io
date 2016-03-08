@@ -3,15 +3,16 @@
     var video = document.querySelector('div#eric video');
     //    var span1 = document.querySelector('#eric > div :first-child');
     //    var span2 = document.querySelector('#eric > div :last-of-type');
-    var span1 = document.querySelector('p#ap');
-    var span2 = document.querySelector('p#bp');
+    var span1 = document.querySelector('div#ap');
+    var span2 = document.querySelector('div#bp');
 
 
     if (!video.textTracks) return;
 
     var track = video.textTracks[0];
-    track.mode = TextTrack.DISABLED; //chrome
-    //    track.mode = TextTrack.DISABLED;
+    //chrome
+    //track.mode = TextTrack.DISABLED; 
+
 
     var idx = 0;
 
