@@ -1,0 +1,73 @@
+﻿WEBVTT
+
+00:00:00.001 --> 00:00:04.867
+Ho usato il programma di modellazione 3d Maya per produrre quest'animazione;
+
+00:00:05.414 --> 00:00:08.187
+dopo la modellazione 3d di Santa Croce,
+
+00:00:08.281 --> 00:00:11.703
+ l'ho decomposta con le operazioni booleane di Maya.
+
+00:00:12.473 --> 00:00:16.567
+Come mostra la figura, ho decomposto la chiesa in alcuni elementi.
+
+00:00:17.321 --> 00:00:21.415
+In seguito c'è stata la fase relativamente più importante.
+
+00:00:21.941 --> 00:00:24.375
+Ho ristrutturato tutti i vari elementi,
+
+00:00:24.422 --> 00:00:29.656
+e questo aspetto può essere considerato il contenuto principale dell'animazione.
+
+00:00:30.347 --> 00:00:35.883
+Per conseguire quanto possibile una forma significativa mediante la ristrutturazione,
+
+00:00:35.922 --> 00:00:37.953
+ devo eseguire lo spostamento
+
+00:00:38.019 --> 00:00:39.043
+, la rotazione
+
+00:00:39.083 --> 00:00:41.949
+, la riduzione di questi 24 elementi.
+
+00:00:42.788 --> 00:00:45.085
+Poi li ho valutati rispettivamente.
+
+00:00:45.809 --> 00:00:47.379
+Prima di ogni risultato,
+
+00:00:47.489 --> 00:00:49.930
+devo far eseguire 72 passi,
+
+00:00:49.969 --> 00:00:54.789
+garantendo che tutti i 72 passi generino il risultato perfetto.
+
+00:00:55.472 --> 00:01:01.199
+Tale esercizio di ripetizione costa molto tempo di elaborazione e abbondante energia.
+
+00:01:01.440 --> 00:01:07.240
+Quindi ho cominciato a progettare il “ componente inserito ” mediante la porta d'estensione di Maya.
+
+00:01:07.763 --> 00:01:09.709
+Il plugin può spostare,
+
+00:01:09.799 --> 00:01:10.619
+ ruotare,
+
+00:01:10.713 --> 00:01:14.994
+ ridurre di dimensione in modo stocastico i 24 elementi.
+
+00:01:15.507 --> 00:01:21.171
+Ogni volta che il plugin esegue il suo compito è come l'atto di lanciare 72 dadi.
+
+00:01:21.970 --> 00:01:23.181
+In tal modo,
+
+00:01:23.291 --> 00:01:28.236
+ posso concentrarmi e giudicare il risultato di ogni ristrutturazione.
+
+00:01:28.641 --> 00:01:33.422
+Una prova noiosa è diventata un processo interessante con cui giocare.

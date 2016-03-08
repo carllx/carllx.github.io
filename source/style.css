@@ -1,0 +1,74 @@
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    /*    background: url('/source/dynamic.png') no-repeat;*/
+    background-size: cover;
+    transition: 1s opacity;
+    opacity: 0;
+    /*视频停止的时候*/
+    /**/
+}
+
+.stopfade {
+    opacity: 1;
+}
+
+#polina {
+    font-family: Times Square, Agenda Light, Agenda, Arial Narrow, sans-serif;
+    font-weight: 100;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 2rem;
+    width: 33%;
+    margin: 2rem;
+    float: right;
+    font-size: 1.6rem;
+}
+
+h1 {
+    font-size: 6rem;
+    text-transform: uppercase;
+    margin-top: 0;
+    letter-spacing: .3rem;
+}
+
+#polina button {
+    display: block;
+    width: 80%;
+    padding: .4rem;
+    border: none;
+    margin: 1rem auto;
+    font-size: 1.3rem;
+    background: rgba(255, 255, 255, 0.23);
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s background;
+}
+
+#polina button:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.5);
+    padding: .5rem;
+    transition: .6s background;
+}
+
+a:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+
+}

@@ -1,0 +1,76 @@
+﻿WEBVTT
+
+00:00:00.039 --> 00:00:05.023
+Il punto di partenza dell'opera è una ricerca sulla macchina pittorica di Leonardo,
+
+00:00:05.079 --> 00:00:06.373
+il Prospettografo.
+
+00:00:07.132 --> 00:00:13.350
+Questa macchina aiuta i pittori a trasformare l'oggetto tridimensionale in un grafico bidimensionale.
+
+00:00:13.767 --> 00:00:14.767
+Per contro,
+
+00:00:14.837 --> 00:00:18.100
+ho utilizzato il principio lavorativo del Prospettografo
+
+00:00:18.152 --> 00:00:24.658
+e la geometria descrittiva per ripristinare il grafico bidimensionale in una Mona Lisa tridimensionale.
+
+00:00:25.286 --> 00:00:30.296
+ho inoltre realizzato l'effetto di visualizzazione semplice della realtà virtuale,
+
+00:00:30.340 --> 00:00:37.312
+permettendo al pubblico di “ sentire ” da diversi punti di vista fuori schermo che sullo schermo esista una Mona Lisa cubica.
+
+00:00:37.971 --> 00:00:42.146
+Molti esperti hanno osservato che la prospettiva scelta da Leonardo
+
+00:00:42.178 --> 00:00:47.288
+ha reso tanti punti dell'intera composizione conformi alla regola della sezione aurea,
+
+00:00:47.320 --> 00:00:49.265
+chiamandola “ l'ottima prospettiva ”.
+
+00:00:49.984 --> 00:00:55.506
+In virtù di OpenCV (Open source Computer Vision) nonché della tecnologia di acquisizione visiva,
+
+00:00:55.573 --> 00:00:59.422
+ho realizzato un sistema d'identificazione della sezione aurea,
+
+00:00:59.501 --> 00:01:02.509
+permettendo agli spettatori di trovare in tempo reale
+
+00:01:02.541 --> 00:01:07.557
+ il suggerimento della sezione aurea su Mona Lisa durante il loro spostamento.
+
+00:01:08.295 --> 00:01:10.522
+Pianifico che nello sviluppo ulteriore,
+
+00:01:10.653 --> 00:01:15.487
+questo sistema potrà emettere una risposta sonora in relazione alla sezione aurea,
+
+00:01:15.543 --> 00:01:20.271
+e simulare il battito dell'artista che cerca la visione ottimale davanti al modello.
+
+00:01:20.898 --> 00:01:26.076
+Leonardo ha cominciato la creazione dell'opera nel 1503 a Firenze,
+
+00:01:26.179 --> 00:01:27.609
+presto aggiungerò la tecnologia
+
+00:01:27.669 --> 00:01:28.280
+AI
+
+00:01:28.494 --> 00:01:30.145
+ " ( Artificial Intelligence ) "
+
+00:01:30.379 --> 00:01:34.268
+a Mona Lisa per consentire la sua interazione con il pubblico.
+
+00:01:34.838 --> 00:01:37.917
+Gli spettatori si sentiranno immersi nella scena,
+
+00:01:37.992 --> 00:01:42.508
+come quando Leonardo cercava la prospettiva ottimale davanti a Mona Lisa.
