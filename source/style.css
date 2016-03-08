@@ -1,12 +1,6 @@
 /*3D效果----------------------
 ---------------------------------*/
-body {
-        margin: 0;
-        /*    background: #262;*/
-        background: url('/source/dynamic.png')#000 no-repeat;
-        background-size: cover;
-        /*视频开始前显示*/
-    }
+
     
     div#tre > div {
         -webkit-perspective: 800;
