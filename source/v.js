@@ -183,7 +183,7 @@ if (browserMatch.browser) {
         alert("【FireFox】浏览器，将使部分动画功能失效，推荐使用chrome浏览器");
     }
     if (browser == "micromessenger") {
-        alert("【微信】浏览器浏览器，将使部分动画功能失效，推荐使用chrome浏览器");
+        alert("【微信】浏览器，将使部分动画功能失效，推荐使用chrome浏览器");
     }
     //document.write(browser + version);
 }
