@@ -69,7 +69,7 @@ pauseButton.addEventListener("click", function () {
 })
 
 
-//浏览器识别
+//浏览器识别--------------------
 
 var userAgent = navigator.userAgent.toLowerCase(),
     rWeixin = /(micromessenger)\/([\w.]+)/,
@@ -180,11 +180,76 @@ if (browserMatch.browser) {
     browser = browserMatch.browser;
     version = browserMatch.version;
     if (browser == "firefox") {
-        alert("【FireFox】浏览器，将使部分动画功能失效，推荐使用chrome浏览器");
+        alert("【FireFox】浏览器，将使部分动画功能失效，\r推荐使用chrome浏览器");
     }
     if (browser == "micromessenger") {
-        alert("【微信】浏览器，将使部分动画功能失效，推荐使用chrome浏览器");
+        alert("【微信】浏览器，将使部分动画功能失效，\r推荐使用chrome浏览器");
     }
     //document.write(browser + version);
 }
-alert("目前网站为测试阶段，你浏览器是 : " + browser + version);
+
+
+//辨别语言--------------
+// 获取终端的相关信息 
+var Terminal = { // 辨别移动终端类型 
+        platform: function () {
+            var u = navigator.userAgent,
+                app = navigator.appVersion;
+            return { //IE内核 
+                windows: u.indexOf('Windows') > -1,
+                //opera内核 
+                presto: u.indexOf('Presto') > -1, //苹果、谷歌内核 
+                webKit: u.indexOf('AppleWebKit') > -1, //火狐内核 
+                gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //是否为移动终端 
+                mobile: !!u.match(/AppleWebKit.*Mobile.*/) || !!u.match(/AppleWebKit/), //ios终端 
+                ios: !!u.match(/\(i[^;]+;( U;) CPU.+Mac OS X/), //android终端或者uc浏览器 
+                android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //是否iPad 
+                iPad: u.indexOf('iPad') > -1, //是否为iPhone或者QQHD浏览器 
+                iPhone: u.indexOf('iPhone') > -1, //是否为mac系统 
+                Mac: u.indexOf('Macintosh') > -1, //是否web应该程序，没有头部与底部 
+                webApp: u.indexOf('Safari') == -1
+            };
+        }(), // 辨别移动终端的语言：zh-cn、en-us、ko-kr、ja-jp... 
+        language: (navigator.browserLanguage || navigator.language).toLowerCase()
+    } // 根据不同的终端，跳转到不同的地址 
+var sysName;
+var lagName;
+var theUrl = '';
+if (Terminal.platform.android) {
+    sysName = "android";
+} else if (Terminal.platform.iPhone) {
+    sysName = "iPhone";
+} else if (Terminal.platform.iPad) {
+    sysName = "iPad";
+} else if (Terminal.platform.windows) {
+    sysName = "windows";
+} else if (Terminal.platform.Mac) {
+    sysName = "Mac";
+} else if (Terminal.platform.gecko) {
+    sysName = "fireFox";
+} else if (Terminal.platform.mobile) {
+    sysName = "mobile";
+} else {
+    sysName = "unknown";
+} // 还可以通过language，区分开多国语言版 
+switch (Terminal.language) {
+case 'zh-cn':
+    lagName = "中文";
+    break;
+case 'ko-kr':
+    lagName = "韩文";
+    break;
+case 'ja-jp':
+    lagName = "日文";
+    break;
+case 'it-it':
+    lagName = "italiano";
+    break;
+default:
+    lagName = "默认英文";
+}
+
+
+
+
+alert("目前网站为测试阶段\r----你的操作系统 : " + sysName + lagName + "\r----你浏览器版本 : " + browser + version);
