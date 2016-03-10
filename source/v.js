@@ -179,10 +179,13 @@ var browserMatch = uaMatch(userAgent.toLowerCase());
 if (browserMatch.browser) {
     browser = browserMatch.browser;
     version = browserMatch.version;
-    if (browser == "firefox" || browser == "micromessenger") {
-        alert("对不起，网站暂未完全支持你所拥的浏览器, 部分功能将失效");
+    if (browser == "firefox") {
+        alert("对不起，网站暂未完全支持“FireFox”浏览器, 部分功能将失效");
     }
-}
-//document.write(browser + version);
+    if (browser == "micromessenger") {
+        alert("对不起，网站暂未完全支持 “微信” 浏览器, 部分功能将失效");
+    }
 
-alert("目前网站为测试阶段，你浏览器是 : " + browser + version);
+    //document.write(browser + version);
+
+    alert("目前网站为测试阶段，你浏览器是 : " + browser + version);
