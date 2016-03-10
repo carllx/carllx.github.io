@@ -185,7 +185,6 @@ if (browserMatch.browser) {
     if (browser == "micromessenger") {
         alert("对不起,网站暂未完全支持 微信 浏览器, 部分功能将失效");
     }
-
     //document.write(browser + version);
-
-    alert("目前网站为测试阶段，你浏览器是 : " + browser + version);
+}
+alert("目前网站为测试阶段，你浏览器是 : " + browser + version);
