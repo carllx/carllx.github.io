@@ -180,10 +180,10 @@ if (browserMatch.browser) {
     browser = browserMatch.browser;
     version = browserMatch.version;
     if (browser == "firefox") {
-        alert("对不起,网站暂未完全支持 FireFox 浏览器, 部分功能将失效");
+        alert("【FireFox】浏览器，将使部分动画功能失效，推荐使用chrome浏览器");
     }
     if (browser == "micromessenger") {
-        alert("对不起,网站暂未完全支持 微信 浏览器, 部分功能将失效");
+        alert("【微信】浏览器浏览器，将使部分动画功能失效，推荐使用chrome浏览器");
     }
     //document.write(browser + version);
 }
