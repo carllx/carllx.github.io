@@ -242,7 +242,7 @@ case 'ko-kr':
 case 'ja-jp':
     lagName = "日文";
     break;
-case 'it-it':
+case 'it':
     lagName = "italiano";
     break;
 default:
