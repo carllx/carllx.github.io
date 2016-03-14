@@ -1,0 +1,228 @@
+@font-face {
+    font-family: 'TIMES_SQ';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../source/fonts/TIMES_SQ.eot");
+    src: url("../source/fonts/TIMES_SQ.eot?#iefix") format("embedded-opentype"), url("../source/fonts/TIMES_SQ.woff") format('woff'), url("../source/fonts/TIMES_SQ.TTF") format("truetype"), url("../source/fonts/TIMES_SQ.svg#TIMES_SQ") format("svg");
+}
+
+
+/* latin */
+
+@font-face {
+    font-family: 'Codystar';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Codystar'), url(https://fonts.gstatic.com/s/codystar/v4/vO78uQGcYk_rDbnNA1ruZPesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+    /*    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;*/
+}
+
+@font-face {
+    font-family: 'Monofett';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Monofett'), url(https://fonts.gstatic.com/s/monofett/v6/B5kbLBv_e4xu3btOMFc8LfesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+h1 {
+    font-size: 8rem;
+    text-transform: uppercase;
+    margin-top: 0;
+    letter-spacing: .3rem;
+}
+
+
+/*3D效果----------------------
+---------------------------------*/
+
+div#tre > div {
+    -webkit-perspective: 800;
+    -webkit-transform-style: preserve-3d;
+    -moz-perspective: 800;
+    -moz-transform-style: preserve-3d;
+    -ms-perspective: 800;
+    -ms-transform-style: preserve-3d;
+    -o-perspective: 800;
+    -o-transform-style: preserve-3d;
+}
+
+div#tre > div:last-child {
+    position: relative;
+    top: -36px;
+}
+
+div#tre > div {
+    -webkit-transition: all 500ms ease-in-out;
+    -webkit-transform-origin: 50% 100%;
+    -webkit-transform: rotateX(-90deg);
+    -moz-transition: all 500ms ease-in-out;
+    -moz-transform-origin: 50% 100%;
+    -moz-transform: rotateX(-90deg);
+    -o-transition: all 500ms ease-in-out;
+    -o-transform-origin: 50% 100%;
+    -o-transform: rotateX(-90deg);
+    -ms-transition: all 500ms ease-in-out;
+    -ms-transform-origin: 50% 100%;
+    -ms-transform: rotateX(-90deg);
+}
+
+div#tre > div.on {
+    opacity: 1;
+    -webkit-transform: rotateX(0);
+    -moz-transform: rotateX(0);
+    -o-transform: rotateX(0);
+    -ms-transform: rotateX(0);
+}
+
+div#eric {
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: auto;
+    box-sizing: border-box;
+}
+
+video {
+    /* Chrome, Safari, Opera */
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+    /*其他*/
+    position: absolute;
+    z-index: 2;
+    width: auto !important;
+    height: 100% !important;
+    max-height: none;
+    max-width: none;
+    /*    background-color: rgba(0, 0, 0, 1);*/
+    background: url(/home.JPG);
+}
+
+
+/*通用横屏和竖屏识别，*/
+
+@media screen and (min-aspect-ratio: 3/ 2) {
+    div#eric {
+        width: 100%;
+        height: auto;
+    }
+    video {
+        height: auto !important;
+        width: 100% !important;
+        max-height: none;
+        max-width: none
+    }
+}
+
+.stopfade {
+    opacity: 1;
+}
+
+#polina {
+    font-family: Codystar, TIMES_SQ, Monofett, Agenda, Arial Narrow, sans-serif;
+    font-weight: 100;
+    color: white;
+    padding: 2rem;
+    width: 33%;
+    margin: 2rem;
+    float: left;
+    bottom: 0;
+    font-size: 1.6rem;
+    z-index: 3;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+@media only screen and (max-width: 1680px) {
+    #polina {
+        width: 48%;
+        float: inherit;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    h1 {
+        font-size: 6rem;
+        text-transform: uppercase;
+        margin-top: 0;
+        letter-spacing: .1rem;
+    }
+}
+
+@media only screen and (max-width: 766px) {
+    #polina {
+        padding: 2rem;
+        margin: 0rem;
+        width: 100%;
+        float: none;
+    }
+}
+
+@media only screen and (min-width: 780px) {}
+
+@media only screen and (max-width: 780px) {}
+
+
+/**/
+
+@media only screen and (max-width: 340px) {}
+
+@media only screen and (max-width: 400px) {}
+
+@media only screen and (max-width: 766px) {}
+
+@media only screen and (max-width: 779px) {}
+
+@media only screen and (max-width: 1000px) {}
+
+@media only screen and (max-width: 1023px) {}
+
+@media only screen and (max-width: 1150px) {}
+
+@media only screen and (max-width: 1290px) {}
+
+@media only screen and (max-width: 1370px) {}
+
+@media only screen and (max-width: 1520px) {}
+
+@media only screen and (max-width: 1680px) {}
+
+#buttonGroup {
+    width: 100%;
+}
+
+#buttonGroup div {
+    margin: 1rem;
+    display: inline-block;
+    /*横向剧中*/
+    -webkit-transition: 1s ease all;
+    -moz-transition: 1s ease all;
+    padding: 10px;
+    margin: 90px auto;
+}
+
+#buttonGroup div:hover {
+    -webkit-transform: rotate(360deg) scale(4, 4);
+    -moz-transform: rotate(360deg) scale(4, 4);
+}
+
+svg:hover {
+    fill: "#455555";
+}
+
+
+/*剪头*/
+
+a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.5);
+    padding: .5rem;
+    transition: .6s background;
+}
+
+a:hover {
+    background: rgba(0, 0, 0, 0.9);
+}

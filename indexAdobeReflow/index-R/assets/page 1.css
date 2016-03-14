@@ -1,0 +1,118 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+#video {
+    float: left;
+    height: 150px;
+    clear: none;
+    width: 100%;
+    background-color: rgb(211, 214, 127);
+    min-width: 100%;
+    display: block;
+    position: absolute;
+}
+
+#box {
+    float: right;
+    height: 42.22%;
+    clear: none;
+    width: 39.999083%;
+    background-color: rgba(0, 0, 0, 0.8);
+    min-width: 0px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: auto;
+    z-index: 1;
+    min-height: 0%;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    right: 0px;
+}
+
+#title_text {
+    float: right;
+    font-size: 570%;
+    width: 80.522756%;
+    height: auto;
+    text-align: right;
+    font-weight: 700;
+    line-height: 100%;
+    margin-left: 0px;
+    margin-top: 9.35%;
+    clear: none;
+    min-height: 17.61%;
+    color: rgb(226, 226, 226);
+    font-family: georgia;
+    font-style: italic;
+    margin-right: 0px;
+}
+
+#blackgroup {
+    float: none;
+    width: auto;
+    max-width: none;
+    height: auto;
+    margin: 0px;
+    clear: both;
+    color: rgb(0, 0, 0);
+    min-height: 0px;
+    min-width: 0px;
+}
+
+@media only screen and (max-width: 2000px) {
+    #box {
+        width: 39.999083%;
+        top: 0px;
+    }
+
+    #title_text {
+        width: auto;
+        font-size: 400%;
+    }
+
+    #blackgroup {
+        min-width: 100%;
+        width: auto;
+        max-width: none;
+    }
+
+    #video {
+        top: 0px;
+        left: 0%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #blackgroup {
+        color: rgb(0, 0, 0);
+        min-height: 100%;
+        min-width: 0px;
+        float: right;
+        clear: none;
+        margin-top: 0px;
+    }
+
+    #title_text {
+        font-size: 302.2%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #blackgroup {
+        clear: none;
+    }
+
+    #title_text {
+        font-size: 200%;
+    }
+}
+

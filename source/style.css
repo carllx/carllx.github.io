@@ -1,69 +1,66 @@
 /*3D效果----------------------
 ---------------------------------*/
 
-    
-    div#tre > div {
-        -webkit-perspective: 800;
-        -webkit-transform-style: preserve-3d;
-        -moz-perspective: 800;
-        -moz-transform-style: preserve-3d;
-        -ms-perspective: 800;
-        -ms-transform-style: preserve-3d;
-        -o-perspective: 800;
-        -o-transform-style: preserve-3d;    
-    }
-    
+div#tre > div {
+    -webkit-perspective: 800;
+    -webkit-transform-style: preserve-3d;
+    -moz-perspective: 800;
+    -moz-transform-style: preserve-3d;
+    -ms-perspective: 800;
+    -ms-transform-style: preserve-3d;
+    -o-perspective: 800;
+    -o-transform-style: preserve-3d;
+}
 
-    
-    div#tre >  div:last-child {
-        position: relative;
-        top: -36px;
-    }
-    
-    div#tre >  div {
-        -webkit-transition: all 500ms ease-in-out;
-        -webkit-transform-origin: 50% 100%;
-        -webkit-transform: rotateX(-90deg);
-        -moz-transition: all 500ms ease-in-out;
-        -moz-transform-origin: 50% 100%;
-        -moz-transform: rotateX(-90deg);
-        -o-transition: all 500ms ease-in-out;
-        -o-transform-origin: 50% 100%;
-        -o-transform: rotateX(-90deg);
-        -ms-transition: all 500ms ease-in-out;
-        -ms-transform-origin: 50% 100%;
-        -ms-transform: rotateX(-90deg);
-    }
-    
-    div#tre >  div.on {
-        opacity: 1;
-        -webkit-transform: rotateX(0);
-        -moz-transform: rotateX(0);
-        -o-transform: rotateX(0);
-        -ms-transform: rotateX(0);
-    }
-    
-    .trackNotSupported {
-        display: none;
-    }
-    
-    .trackNotSupported.show {
-        display: block;
-    }
-    
-    .warningMessage {
-        color: red;
-    }
-    
-    .talkinghead-dutton:before {
-        background-image: url(/static/images/profiles/dutton.png);
-        background-size: 60px 60px;
-        background-position: 0px 0px!important;
-    }
+div#tre > div:last-child {
+    position: relative;
+    top: -36px;
+}
 
-    div#eric {
-        text-align: center;
-    }
+div#tre > div {
+    -webkit-transition: all 500ms ease-in-out;
+    -webkit-transform-origin: 50% 100%;
+    -webkit-transform: rotateX(-90deg);
+    -moz-transition: all 500ms ease-in-out;
+    -moz-transform-origin: 50% 100%;
+    -moz-transform: rotateX(-90deg);
+    -o-transition: all 500ms ease-in-out;
+    -o-transform-origin: 50% 100%;
+    -o-transform: rotateX(-90deg);
+    -ms-transition: all 500ms ease-in-out;
+    -ms-transform-origin: 50% 100%;
+    -ms-transform: rotateX(-90deg);
+}
+
+div#tre > div.on {
+    opacity: 1;
+    -webkit-transform: rotateX(0);
+    -moz-transform: rotateX(0);
+    -o-transform: rotateX(0);
+    -ms-transform: rotateX(0);
+}
+
+.trackNotSupported {
+    display: none;
+}
+
+.trackNotSupported.show {
+    display: block;
+}
+
+.warningMessage {
+    color: red;
+}
+
+.talkinghead-dutton:before {
+    background-image: url(/static/images/profiles/dutton.png);
+    background-size: 60px 60px;
+    background-position: 0px 0px!important;
+}
+
+div#eric {
+    text-align: center;
+}
 
 video {
     position: fixed;
@@ -74,10 +71,13 @@ video {
     width: auto;
     height: auto;
     z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%); /* IE 9 */
-    -webkit-transform: translateX(-50%) translateY(-50%); /* Chrome, Safari, Opera */
-    -moz-transform: translateX(-50%) translateY(-50%);/*下一层居中*/
-    -o-transform:translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    /* IE 9 */
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    /* Chrome, Safari, Opera */
+    -moz-transform: translateX(-50%) translateY(-50%);
+    /*下一层居中*/
+    -o-transform: translateX(-50%) translateY(-50%);
     /*    background: url('/source/dynamic.png') no-repeat;*/
     background-size: cover;
     transition: 1s opacity;
