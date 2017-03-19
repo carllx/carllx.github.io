@@ -1,21 +1,25 @@
 <html>
-    
-    <meta charset="utf-8">
-    <title>Lissa • carllx</title>
-    <meta name="description" content="Lissa • carllx">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aframe/0.5.0/aframe.min.js"></script>
-
-
-    <a-scene>
-        <a-sphere position="0 1.25 -1" radius="1.25" color="#EF2D5E"></a-sphere>
+<script src="https://aframe.io/releases/0.5.0/aframe.js"></script>
+    <head>
+       <meta charset="utf-8">
+        <title>Lissa • carllx</title>
+        <meta name="description" content="Lissa • carllx">
+         
+    </head>
         
-        <a-plane rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
-        <a-entity obj-model="obj:source/obj/head.obj"></a-entity>
-        <a-entity obj-model="obj:source/obj/hair.obj"></a-entity>
 
-        <a-sky color="#ECECEC"></a-sky>
-        <a-entity camera="userHeight: 1.6;fov:9"  position="0 0 10" look-controls></a-entity>
-    </a-scene>
+    <body>
 
+        <a-scene>
+            <a-sphere position="0 1.25 -1" radius="1.25" color="#EF2D5E"></a-sphere>
+            
+            <a-plane rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+            <a-entity obj-model="obj:/source/obj/head.obj"></a-entity>
+            <a-entity obj-model="obj:/source/obj/hair.obj"></a-entity>
 
+            <a-sky color="#ECECEC"></a-sky>
+            <a-entity camera="userHeight: 1.6;fov:9"  position="0 0 10" look-controls></a-entity>
+        </a-scene>
+    </body>
+    
 </html>
