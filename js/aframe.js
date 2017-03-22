@@ -77660,7 +77660,10 @@ module.exports.updateDistortionMap = function (longType, shader, data) {
   }
 
   // Texture removed.
-  if (!material.map) { return; }
+  console.log('longType: '+longType +' material.map:'+ material.map)
+  if (!material.map) { 
+    console.error('longType: '+longType +' material.map:'+ material.map)
+    return; }else{}
   setMap(null);
 
   function setMap (texture) {

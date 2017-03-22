@@ -1,25 +1,77 @@
-<html>
-<script src="https://aframe.io/releases/0.5.0/aframe.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+
     <head>
        <meta charset="utf-8">
         <title>Lissa • carllx</title>
         <meta name="description" content="Lissa • carllx">
-         
+        <script src="js/aframe.js"></script>
+        <script src="/shaders.js"></script>
     </head>
-        
-
     <body>
+        
+        <a-scene inspector="url: https://aframe.io/releases/0.3.0/aframe-inspector.min.js">
+            <a-ssets>
+            </a-ssets>
 
-        <a-scene>
-            <a-sphere position="0 1.25 -1" radius="1.25" color="#EF2D5E"></a-sphere>
+            <!-- camera -->
+            <a-entity  camera="fov:9" position="0.39961 8.69114 71.01677" rotation="-6.923000000000002 0 0.337" look-controls>
+                <!-- 控制板 -->
+                <a-entity geometry="primitive: plane; height: 0.15; width: 0.08" 
+                        position="-0.1 0 -1" 
+                        visible="true" 
+                        material="color: black; opacity: 0.6"></a-entity>
+            </a-entity>
+
+
+            <a-sphere position="0 1.25 1" radius="0.8" color="#EF2D5E"></a-sphere>
+            <a-plane rotation="-90 0 0" width="16" height="16" color="#7BC8A4" opacity="0.3"></a-plane>
+            <!-- <a-sky color="#788452"></a-sky> -->
+            <a-sky src="/source/obj/sky_diff.png" radius="100"></a-sky>
             
-            <a-plane rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
-            <a-entity obj-model="obj:/source/obj/head.obj"></a-entity>
-            <a-entity obj-model="obj:/source/obj/hair.obj"></a-entity>
 
-            <a-sky color="#ECECEC"></a-sky>
-            <a-entity camera="userHeight: 1.6;fov:9"  position="0 0 10" look-controls></a-entity>
+            <!-- model -->
+            <a-entity id="head"
+                    obj-model="obj:/source/obj/head.obj"
+                    material=" src: /source/obj/head_diff.png ;
+                            transparent:true;
+                            roughness:0.8;
+                            normalMap:/source/obj/head_normal.png;
+                            ambientOcclusionMap:/source/obj/head_ao.png;
+                            ambientOcclusionMapIntensity:0.5;
+                            sphericalEnvMap:/source/obj/sky_diff.png;"></a-entity>
+                            <!-- color:#FDD07F; -->
+<!--             <a-entity id="hair" 
+
+                    obj-model="obj:/source/obj/hair.obj" 
+                    material="src: /source/obj/hairs_diff.png ;
+                    metalnessMap:/source/obj/hairs_spec.png;
+                    normalMap:/source/obj/hairs_normal.png;
+                    ambientOcclusionMapIntensity:0.3599999999999999;
+                    ambientOcclusionMap:/source/obj/hairs_ao.png;
+                    sphericalEnvMap:/source/obj/sky_diff.png;"></a-entity> -->
+            <a-entity id="hair" 
+    
+                    obj-model="obj:/source/obj/hair.obj" 
+                    material="shader:three_stand_shader; 
+                    src: /source/obj/hairs_diff.png ;
+                    normalMap:/source/obj/hairs_normal.png; 
+                    ambientOcclusionMap:/source/obj/hairs_ao.png; 
+                    roughnessMap:/source/obj/hairs_spe.png; 
+                    "></a-entity>
+
+            <!-- Light -->
+            <a-entity light="type: directional; 
+            intensity:0.84;
+            penumbra:1 ;
+            color:#fefef5; " position="-1.36 5.06 6.93"></a-entity>
+ 
+            <a-entity light="type: ambient; 
+            intensity:1.6;
+            groundColor:#5b4628;
+            penumbra:1 ;
+            color:#6f4428;"></a-entity>
         </a-scene>
     </body>
     
-</html>
+</html><!-- color:#6F2C26; -->
