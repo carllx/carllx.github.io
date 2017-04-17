@@ -1,0 +1,70 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="source/index.css">
+    <!-- JQuery -->
+    <script src="source/jquery-1.11.3.min.js" type="text/javascript" async="async"></script>
+    <!-- javascript -->
+    <script src="source/HomeIndex.js" type="text/javascript" async="async"></script>
+
+    <title>carllx</title>
+    <style>
+        body {
+            margin: 0;
+            /*    background: #262;*/
+            /*
+            background: url('/source/santa.png')#000 no-repeat;
+            background-size: cover;
+*/
+            /*视频开始前显示*/
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="polina">
+        <h1> carllx</h1>
+        <p>Power by LinXin 2011~2016</p>
+        <a href="LaGioconda.html">></a>
+        <div id="tre">
+            <div id="ap">
+                <p></p>
+            </div>
+            <div id="bp">
+                <p></p>
+            </div>
+        </div>
+        <div id="buttonGroup" align="center">
+            <div onclick="location.href='pp.html'">
+                <img src="/source/PP-icon.svg" width="100" height="100"></div>
+            <div onclick="location.href='LaGioconda.html'">
+                <img src="/source/LG-icon.svg" width="100" height="100"></div>
+            <div onclick="location.href='RemixTool.html'">
+                <img src="/source/St-icon.svg" width="100" height="100"></div>
+            <div onclick="location.href='DynamicWriter.html'">
+                <img src="/source/DW-icon.svg" width="100" height="100"></div>
+        </div>
+    </div>
+
+
+    <div id="eric">
+        <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+        <!--        <video loop poster="source/santa.png">-->
+        <video loop autoplay poster="source/home.JPG">
+            <source src="source/Vi.d/Homecomp.mp4" type="video/mp4">
+        </video>
+        <audio id="bgvid" loop autoplay>
+            <!--    <video autoplay poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" loop>-->
+            <source src="source/Vi.d/floating.mp3" type="audio/mpeg">
+
+        </audio>
+    </div>
+</body>
+
+
+
+
+</html>

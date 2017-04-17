@@ -1,0 +1,108 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "cc20f2a7fa05a475130c406740bbbd26",
+      "css": "instagram",
+      "code": 62239,
+      "src": "brandico"
+    },
+    {
+      "uid": "34cb6ce62bf3f1efd59e2f5eb0d79f82",
+      "css": "wechat",
+      "code": 61911,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "4743b088aa95d6f3b6b990e770d3b647",
+      "css": "facebook",
+      "code": 62216,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "9854b94688e31450fc76aae4c2a45dff",
+      "css": "weibo",
+      "code": 61834,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "a9862b9d5197886c1ad693ecd7120b31",
+      "css": "youtube",
+      "code": 61799,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "c874a7b43d3f61059bd6db64fc7d6cb3",
+      "css": "youku",
+      "code": 62244,
+      "src": "brandico"
+    },
+    {
+      "uid": "657ff9fe5df74f1993937aa4b19cf909",
+      "css": "qq",
+      "code": 61910,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "b49fa3e57e92b38143e0fdcc5d9a904b",
+      "css": "gmail",
+      "code": 59392,
+      "src": "zocial"
+    },
+    {
+      "uid": "18e30ad120ce4b15d7e5c797e4bf0ee8",
+      "css": "hand-pointer-o",
+      "code": 62042,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "28eb32daba43ab0218de57f6f703caa9",
+      "css": "vr",
+      "code": 59393,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M1238.7 785.8C1079.8 785.8 951 652.9 951 489S1079.5 192.2 1238.7 192.2 1526.4 325.1 1526.4 489 1397.6 785.8 1238.7 785.8ZM189.4 489C189.4 325.1 318.1 192.2 477 192.2S764.7 325.1 764.7 489 635.9 785.9 477 785.9 189.4 652.9 189.4 489ZM192.4 0C81.4 0 0 87.1 0 201.7V782.5C0 897.1 81.4 1000 192.4 1000H702.5C717.8 1000 732.1 987.1 740.6 973.9L821.8 832.6A56.4 56.4 0 0 1 910.1 831.3L991.3 974.8C999.8 987.9 1014 1000.3 1029.4 1000.3H1539.4C1650.5 1000.3 1734.4 897.3 1734.4 782.8V201.7C1734.4 87.1 1650.5 0 1539.5 0H192.4Z",
+        "width": 1734
+      },
+      "search": [
+        "vr-glass"
+      ]
+    },
+    {
+      "uid": "62c089cb34e74b3a1200bc7f5314eb4e",
+      "css": "firefox",
+      "code": 59456,
+      "src": "fontelico"
+    },
+    {
+      "uid": "9c2b737b16ae2c8d66b7bfd29ba5ecd8",
+      "css": "chrome",
+      "code": 59457,
+      "src": "fontelico"
+    },
+    {
+      "uid": "45861dd1e5ce4fde338bcccf01eeb808",
+      "css": "opera",
+      "code": 59458,
+      "src": "fontelico"
+    },
+    {
+      "uid": "2a46f1d1c9bd036e17a74e46613c1636",
+      "css": "ie",
+      "code": 59459,
+      "src": "fontelico"
+    },
+    {
+      "uid": "c737078cb69dfd2e8484e134ecbce791",
+      "css": "child",
+      "code": 59394,
+      "src": "elusive"
+    }
+  ]
+}

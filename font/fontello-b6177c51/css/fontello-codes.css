@@ -1,0 +1,16 @@
+
+.icon-gmail:before { content: '\e800'; } /* '' */
+.icon-vr:before { content: '\e801'; } /* '' */
+.icon-child:before { content: '\e802'; } /* '' */
+.icon-firefox:before { content: '\e840'; } /* '' */
+.icon-chrome:before { content: '\e841'; } /* '' */
+.icon-opera:before { content: '\e842'; } /* '' */
+.icon-ie:before { content: '\e843'; } /* '' */
+.icon-youtube:before { content: '\f167'; } /* '' */
+.icon-weibo:before { content: '\f18a'; } /* '' */
+.icon-qq:before { content: '\f1d6'; } /* '' */
+.icon-wechat:before { content: '\f1d7'; } /* '' */
+.icon-hand-pointer-o:before { content: '\f25a'; } /* '' */
+.icon-facebook:before { content: '\f308'; } /* '' */
+.icon-instagram:before { content: '\f31f'; } /* '' */
+.icon-youku:before { content: '\f324'; } /* '' */
